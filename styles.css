@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nunito+Sans:wght@400;600;700;800;900&display=swap');
 
 :root {
     --teal: #004d59;
@@ -37,9 +37,21 @@ h1,
 h2,
 h3,
 h4 {
+    margin: 0 0 22px
+}
+
+h1,
+h2 {
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    line-height: 1.12;
+    letter-spacing: .02em
+}
+
+h3,
+h4 {
     font-family: 'Nunito Sans', sans-serif;
     line-height: 1.08;
-    margin: 0 0 22px;
     font-weight: 900;
     letter-spacing: -.035em
 }
